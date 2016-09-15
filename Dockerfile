@@ -3,11 +3,11 @@ MAINTAINER Eljas Alakulppi <buzer@buzer.net>
 
 USER root
 
-ENV CHROME_DRIVER_VERSION 2.20
+ENV CHROME_DRIVER_VERSION 2.24
 
 ADD https://download-chromium.appspot.com/dl/Linux_x64 /opt/
 
-ADD http://chromedriver.storage.googleapis.com/2.20/chromedriver_linux64.zip /opt/selenium/
+ADD http://chromedriver.storage.googleapis.com/2.24/chromedriver_linux64.zip /opt/selenium/
 ADD config.json /opt/selenium/config.json
 ADD chrome_launcher.sh /opt/chrome-linux/google-chrome
 
